@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 1em;
+            font-weight: normal ;
+                /* lighter normal bold bolder (100-900) */
+            font-style: italic;
+            text-decoration: underline;
+        }
+        /* 
+            Medidas absolutas: cm, mm, in, px, pt, pc
+
+            Medidas relativas: em, ex, rem, vw, vh, %
+
+            16 px geralmente é 1em
+        */
+        h1 {
+            /*font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /* shorthand font
+                - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em sans-serif;
+        }
+        
+        h2{
+            font: bold 2em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam saepe nulla recusandae debitis illo adipisci? Laborum ullam tempore nulla blanditiis inventore reprehenderit debitis officiis, assumenda cupiditate, ipsam, distinctio a delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore saepe officia quae. Incidunt minima delectus tenetur molestiae blanditiis tempora nemo nam perspiciatis atque, iure ducimus ipsum, iste aperiam ut!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptatibus odit sunt itaque reiciendis libero rem provident cumque ullam dolores dolorum facere, corrupti dolor. Repellat illum molestias sapiente a quos?</p>
+    
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus impedit culpa velit commodi incidunt earum similique molestiae odit, maiores a tenetur ducimus deleniti nam rem adipisci! Animi illum dignissimos nostrum.</p>
+
+</body>
+</html>
